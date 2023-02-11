@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Have fun with math, enjoy our student specialized calculator. Only on fishme/mediaology.">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="/icon.png" type="image/png">
+    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5666272291067195" crossorigin="anonymous"></script>
+    <script src="cloak.js?v=0"></script>
+    <script async="" src="https://arc.io/widget.min.js#RqQiAHK7"></script>
+    <script src="https://www.hCaptcha.com/1/api.js" async="" defer=""></script>
+    <link href="https://gateway.arc.io" crossorigin="" rel="preconnect" id="arc-preconnect-gateway" data-arc-widget="">
+    <link href="https://webseed.arc.io" crossorigin="" rel="preconnect" id="arc-preconnect-webseed" data-arc-widget="">
+    <link href="https://static.arc.io/widget/js/core.js?13acafc" rel="modulepreload" as="script" id="arc-preload-corejs" data-arc-widget="">
+    <script src="https://static.arc.io/widget/js/core.js?13acafc" type="module" async="" id="arc-corejs" data-arc-widget=""></script>
+    <script src="https://static.arc.io/widget/js/core-legacy.js?13acafc" nomodule="" async="" id="arc-corejs-legacy" data-arc-widget=""></script>
+    <script charset="utf-8" src="https://static.arc.io/widget/js/vendors~widget-ui.js?c9b0de53"></script>
+    <link rel="stylesheet" type="text/css" href="https://static.arc.io/widget/css/widget.css?13acafc">
+    <script charset="utf-8" src="https://static.arc.io/widget/js/widget-ui.js?7a51e653"></script>
+</head>
+
+<body><iframe id="arc-broker" src="https://core.arc.io/broker.html?13acafc" title="Arc.io Broker Iframe" sandbox="allow-scripts allow-same-origin allow-top-navigation-by-user-activation" loading="eager" data-arc-widget="" style="opacity: 0 !important; width: 0px !important; height: 0px !important; border: none !important; top: -9999px !important; left: -9999px !important; position: fixed !important; visibility: hidden !important; user-select: none !important;"></iframe>
+    <link rel="stylesheet" href="/calcs/calc2.css">
+
+    <form name="form1" class="calci" action="./" method="POST">
+        <input disabled="" type="text" name="answer" id="display">
+        <br>
+
+        <input type="button" value="C" onclick="form1.answer.value=''" class="button">
+
+        <input type="button" class="button" value="<" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)">
+        <input type="button" class="offcolured" value="pi" onclick="openInNewTab(window.location.origin + '/main/')">
+
+        <input type="button" class="operator" value="/" onclick="form1.answer.value+='/'">
+        <br>
+        <input type="button" class="button" value="7" onclick="form1.answer.value+='7'">
+        <input type="button" class="button" value="8" onclick="form1.answer.value+='8'">
+        <input type="button" class="button" value="9" onclick="form1.answer.value+='9'">
+
+        <input type="button" class="operator" value="*" onclick="form1.answer.value+='*'">
+        <br>
+
+        <input type="button" class="button" value="4" onclick="form1.answer.value+='4'">
+        <input type="button" class="button" value="5" onclick="form1.answer.value+='5'">
+
+        <input type="button" class="button" value="6" onclick="form1.answer.value+='6'">
+
+        <input type="button" class="operator" value="-" onclick="form1.answer.value+='-'">
+        <br>
+        <input type="button" class="button" value="1" onclick="form1.answer.value+='1'">
+        <input type="button" class="button" value="2" onclick="form1.answer.value+='2'">
+
+        <input type="button" class="button" value="3" onclick="form1.answer.value+='3'">
+
+        <input type="button" class="operator" value="+" onclick="form1.answer.value+='+'">
+        <br>
+
+        <input type="button" class="button" value="0" onclick="form1.answer.value+='0'" id="zero">
+
+        <input type="button" class="button" value="." onclick="form1.answer.value+='.'">
+
+        <input type="button" class="operator" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+
+        <div class="foot">Site: FoxMoss | Design: Tech Projects</div>
+        <div class="foot"><a href="mailto:foxmoss@mediaology.com">foxmoss@mediaology.com</a></div>
+    </form>
+
+    <div data-v-006c9b03="" id="arc-widget-container" style="height: 929px;">
+        <div data-v-006c9b03="" id="arc-widget" class="intrinsic-ignore"><iframe data-v-28716f3d="" data-v-006c9b03="" frameborder="0" title="Arc.io Widget Launcher" class="arc-iframe is-visible" id="arc-widget-launcher-iframe"></iframe><iframe data-v-d0762f48="" data-v-006c9b03="" frameborder="0" title="Arc.io Widget Body" class="arc-iframe view-adblock" id="arc-popper-iframe" style="display: none;"></iframe>
+            <div data-v-006c9b03="" id="arc-page-shadow" style="opacity: 0;"></div>
+        </div>
+    </div>
+</body>
+
+</html>
